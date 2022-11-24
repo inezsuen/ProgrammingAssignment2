@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## Get the value of inverse
   getinverse <- function() i
   
-  # Create a special "matrix" (a list) that cache its inverse
+  ## Create a special "matrix" (a list) that cache its inverse
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
